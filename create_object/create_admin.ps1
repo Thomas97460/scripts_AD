@@ -1,0 +1,7 @@
+﻿New-ADUser -Name "Admin-DHCP" -SamAccountName "Admin-DHCP" -Path "OU=Administrateurs,DC=dom1,DC=local" -AccountPassword (ConvertTo-SecureString "AdminDHCP@123" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Admin-DNS" -SamAccountName "Admin-DNS" -Path "OU=Administrateurs,DC=dom1,DC=local" -AccountPassword (ConvertTo-SecureString "AdminDNS@123" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Admin-VPN" -SamAccountName "Admin-VPN" -Path "OU=Administrateurs,DC=dom1,DC=local" -AccountPassword (ConvertTo-SecureString "AdminVPN@123" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Admin-RDP" -SamAccountName "Admin-RDP" -Path "OU=Administrateurs,DC=dom1,DC=local" -AccountPassword (ConvertTo-SecureString "AdminRDP@123" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Admin-Fichiers-Part" -SamAccountName "Admin-Fichiers-Part" -Path "OU=Administrateurs,DC=dom1,DC=local" -AccountPassword (ConvertTo-SecureString "AdminFichiersPartage@123" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Admin-Fichiers-Home" -SamAccountName "Admin-Fichiers-Home" -Path "OU=Administrateurs,DC=dom1,DC=local" -AccountPassword (ConvertTo-SecureString "AdminFichiersHome@123" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Admin-Bastion" -SamAccountName "Admin-Bastion" -Path "OU=Administrateurs,DC=dom1,DC=local" -AccountPassword (ConvertTo-SecureString "AdminBastion@123" -AsPlainText -Force) -Enabled $true

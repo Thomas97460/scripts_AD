@@ -1,0 +1,7 @@
+﻿New-ADComputer -Name "SRV-DHCP" -SamAccountName "SRV-DHCP" -Path "OU=Serveurs-DHCP,DC=dom1,DC=local"
+New-ADComputer -Name "SRV-DNS" -SamAccountName "SRV-DNS" -Path "OU=Serveurs-DNS,DC=dom1,DC=local"
+New-ADComputer -Name "SRV-FICHIERS-HOME" -SamAccountName "SRV-FICHIERS-HOME" -Path "OU=Serveurs-Fichiers-Home,DC=dom1,DC=local"
+New-ADComputer -Name "SRV-FICHIERS-PART" -SamAccountName "SRV-FICHIERS-PART" -Path "OU=Serveurs-Fichiers-Partages,DC=dom1,DC=local"
+New-ADComputer -Name "SRV-VPN" -SamAccountName "SRV-VPN" -Path "OU=Serveurs-VPN,DC=dom1,DC=local"
+New-ADComputer -Name "SRV-RDP" -SamAccountName "SRV-RDP" -Path "OU=Serveurs-RDP,DC=dom1,DC=local"
+New-ADComputer -Name "SRV-BASTION" -SamAccountName "SRV-BASTION" -Path "OU=Serveurs-Bastion,DC=dom1,DC=local"
